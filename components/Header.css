@@ -1,0 +1,219 @@
+div::-webkit-scrollbar{
+    display: none;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+     font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    box-sizing: border-box;  
+}
+
+body{
+    margin-left: 2rem;
+    margin-right: 3rem;
+    background-color: rgb(13, 13, 13);
+}
+
+.header-section{
+    margin: 1rem;
+    padding: 1rem;
+}
+.inner{
+    display: flex;
+   
+}
+.logo{
+    width: 10%;
+}
+#logo{
+   width: 10rem;
+}
+.components{
+    position: relative;
+    margin-left: 8rem;
+  justify-content: space-between;
+  top: 0.5rem;
+
+}
+.components ul a span{
+    font-weight: bold;
+    
+}
+button{
+    padding: 0.5rem;
+    width: 10rem;
+    background-color: rgb(21, 37, 210);
+    color: white;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    font-weight: bolder;
+}
+.components ul a{
+   float: right;
+    margin-left: 2.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    
+}
+.components ul a:hover{
+  
+    color: grey;
+    
+}
+.buttons{
+    margin-left: 30rem;
+    display: flex;
+   
+}
+
+.btn1{
+    justify-content: space-around;
+    padding-left: 1rem;
+   margin-right: 1rem;
+}
+#btn2{
+    background-color: white;
+    color: rgb(92, 19, 114);
+    
+    
+}
+
+
+/* -------------------------------main center section-------------------- */
+.center-section-main{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-top: 9rem;
+}
+.center-inner-section h1{
+    font-size:  3rem;
+    margin: 1rem;
+    color: white;
+}
+.center-inner-section{
+    margin: 2rem;
+}
+.center-inner-section p{
+    font-size: 1.1rem;
+    color: white;
+    
+}
+.inner-section-input{
+   display: flex;
+    width: 100%;
+    
+}
+.center-input{
+    width: 80%;
+}
+.center-search-button .center-button{
+    padding: 0.8rem;
+    position: relative;
+    left: -18rem;
+    top: 2rem;
+}
+
+/* --------------------------------contact us------------------------------------------ */
+
+.contact-us{
+    margin-left: 5.7rem;
+    margin-right: 5.7rem;
+}
+.contact-container .contact-heading{
+    color: rgb(255, 196, 0);
+}
+.contact-container h2{
+   line-height: 4rem;
+   font-size: 1.8rem;
+}
+.form{  
+    box-shadow: 0rem 0rem 0.3rem rgba(128, 128, 128, 0.914);
+    height: 23rem;
+    margin: 3rem;
+}
+.form-content{
+    padding: 2rem;
+}
+.form-content p{
+    position: relative;
+    text-align: left;
+}
+input{
+    justify-content: space-around;
+    margin-top: 2rem;
+     width: 40%;
+     line-height: 2rem;
+     padding: 0.3rem;
+}
+.text2{
+    margin-left: 1rem;
+}
+.text3{
+    margin-bottom: 3rem;
+}
+.contact-btn{
+   padding: 1rem;
+   width: 10rem;
+   background-color: purple;
+   font-size: 1rem;
+}
+
+
+/* ---------------------------------faq section--------------------------- */
+
+
+.faq{
+    margin-left: 5.7rem;
+    margin-right: 5.7rem;
+    background-color: rgba(249, 239, 240, 0.656);
+}
+.faq-content .faq-title{
+    margin: 0 1rem;
+    color: orange;
+    font-size: 1.2rem;
+}
+.faq-content .title-content{
+    color: black;
+    font-size: 1.7rem;
+    margin-left: 1.4rem;
+}
+.wrapper{
+    display: flex;
+   margin-top: 4rem;
+    justify-content: center;
+    
+}
+.accordion{
+    width: 100rem;
+}
+.item{
+    background-color: white;
+    margin-bottom: 0.5rem;
+    padding: 1rem 2rem;
+    font-weight: lighter;
+}
+.title{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 100;
+}
+.content{
+    color: black;
+    font-weight: lighter;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.content.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 05s cubic-bezier(1,0,1,0);
+}

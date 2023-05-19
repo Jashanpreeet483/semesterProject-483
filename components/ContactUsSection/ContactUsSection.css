@@ -1,0 +1,155 @@
+.ContactUsSection-main-div section{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: auto;
+    box-sizing: border-box;
+}
+.ContactUsSection-left-div{
+  margin: 2rem;
+    width: 100%;
+   
+   
+}
+.ContactUsSection-right-div{
+    width: 100%;
+   box-shadow: 1px 1px 5px grey;
+    padding: 2rem;
+    background-color: white;
+    
+    
+}
+.Contact-right-side-toggle-cross{
+    position: relative;
+    bottom: -2rem;
+}
+.Right-inner-content{
+    display: flex;
+    gap: 18rem;
+}
+.Right-inner-content i{
+    float: right;
+}
+
+.ContactUsSection-main-div .ContactUsSection-Inner{
+    display: flex;
+    gap: -3rem;
+    background-image: linear-gradient(to left, rgba(244, 244, 244, 0.5) 100%, rgba(244, 244, 244, 0) 46%);
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 1.5rem;
+    margin: 3rem;
+
+}
+.ContactUsSection-main-div{
+    margin: 5rem 10rem;
+    align-items: center;
+}
+.dropdownlist-contactus{
+    padding: 1.1rem;
+}
+.dropdownlist-contactus{
+    display: flex;
+}
+.ContactUs-input-field input{
+    width: 100%;
+    
+}
+.Contact-us-button {
+    background-color: blue;
+    color: white;
+    float: right;
+    
+}
+.Contact-us-button button{
+    border-radius: 15px;
+}
+.ContactUsSection-left-content h3{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.ContactUsSection-left-content p{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.contact-us-image{
+    width: 400px;
+    align-items: center;
+}
+
+/* -------------------------media-queries------------------------------- */
+
+@media  (min-width:1000px) and (max-width:1400px){
+        .ContactUsSection-main-div{
+            width: auto;
+            margin: auto 2rem;
+        }
+        .Right-inner-content i{
+            float: right;
+        }
+        
+       
+}
+@media  (min-width:600px) and (max-width:1000px){
+    .ContactUsSection-main-div{
+        width: auto;
+        margin: auto 2rem;
+    }
+   
+   .ContactUsSection-Inner{
+    margin: 2rem;
+   }
+   .ContactUsSection-main-div .ContactUsSection-Inner{
+    display: block;
+   }
+   .ContactUsSection-left-div{
+    width: 0;
+    display: none;
+   }
+   .ContactUsSection-right-div{
+   height: 30rem;
+   }
+   .Right-inner-content{
+    display: flex;
+   
+}
+}
+
+@media  (min-width:200px) and (max-width:600px){
+    .ContactUsSection-main-div{
+        width: auto;
+        margin: auto 1rem;
+    }
+   
+   .ContactUsSection-Inner{
+    margin: 1rem;
+   }
+   .ContactUsSection-main-div .ContactUsSection-Inner{
+    display: block;
+   }
+   .ContactUsSection-left-div{
+    width: 0;
+    display: none;
+   }
+   .ContactUsSection-right-div{
+   height: 30rem;
+   }
+   .Right-inner-content{
+    display: flex;
+    gap: 8rem;
+}
+}
+@media  (min-width:200px) and (max-width:400px){
+    .Right-inner-content{
+        display: flex;
+        gap: 3rem;
+    }
+}
+@media  (min-width:800px) and (max-width:995px){
+    .Right-inner-content{
+        display: flex;
+        gap: 26rem;
+    }
+    .Contact-right-side-toggle-cross{
+        float: right;
+    }
+}
+
